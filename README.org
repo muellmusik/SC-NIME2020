@@ -12,24 +12,23 @@
 [[github:KonVas/SuperMiam/blob/master/AP-Classes/Week02/Basics.md][Intro to Variables]]
 *** More Examples on Variables
 [[~/Classes/Audio-Programming/Week02/Variables-Week02.scd]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Week02/Variables-Week02.scd][Intro to Variables Online]]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week02/Variables-Week02.scd][Intro to Variables Online]]
 *** More Examples on Functions
 [[~/Classes/Audio-Programming/Week02/Functions-Week02.scd]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Week02/Functions-Week02.scd][Intro to Functions Online]]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week02/Functions-Week02.scd][Intro to Functions Online]]
 
 ** Sound Synthesis
-[[file:../../../org-roam/20200717112657-making_sound.org][Making Sound]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Week03/MakingSound-Week03.md][Making Sound Online]]
+[[file:../../../org-roam/20200717112657-making_sound.org][Making Sound]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week03/MakingSound-Week03.md][Making Sound Online]]
 [[file:../../../org-roam/20200717112340-synthdefs.org][Synthdefs]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Demos/01.SynthDefs.org][SynthDefs Online]]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Demos/01.SynthDefs.org][SynthDefs Online]]
 
 ** Control and Interaction
 [[file:../../../org-roam/20200717112831-controlling.org][Controlling]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Examples/Patterns.scd][Patterns]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Demos/SynthDefControlPatterns.scd][Controlling Synths with Patterns]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Demos/Control-using-Events.org][More Patterns and Synths]]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Demos/SynthDefControlPatterns.scd][Patterns]]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Demos/Control-using-Events.org][More Patterns and Synths]]
 
 ** Harware Communication - Performing with controllers
-*** [[file:../../../org-roam/20200707120849-modality.org][Modality]]
+*** [[file:../../../org-roam/20200707120849-modality.org][Modality]] [[https://github.com/KonVas/SC-NIME2020/blob/kv-basics/Modality%20Examples.scd][Modality Online]]
 *** [[file:../../../org-roam/20200618153859-mapping_strategies.org][mapping strategies]]
 *** [[file:../../../org-roam/20200618145312-live_coding_with_controllers.org][Live Coding with controllers]]
