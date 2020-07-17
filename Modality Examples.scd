@@ -1,4 +1,28 @@
-// example using a Nintendo Switch Pro Controller
+MKtl.find; // look for available controllers
+
+k = MKtl('midi_1_nanoko', "korg-nanokontrol2"); // make a new Modality controller object for the korg nanocontrol2
+
+k.gui;
+
+// see all output from the device
+k.trace;
+//turn it off
+k.trace(false);
+
+// see a hierarchical tree of all elements
+k.postElements;
+
+// post the output of the first knob
+k.elAt(\kn, 0).action_({ |el| [el.name, el.value.postcs });
+
+// clear the action
+k.elAt(\kn, 0).resetAction;
+
+Ndef(\harms, { Splay.ar(8.collect({|i| SinOsc.ar(200 * (i + 1), mul: ("amp-" ++ i).asSymbol.kr(0)) }).scramble) }).play;
+
+k.elAt('sl').action = { |...args| Ndef(\harms).set("amp-" ++ args[0].index, args[0].value) };
+
+// HID example using a Nintendo Switch Pro Controller
 // first we'd need to pair this via bluetooth
 
 // this is what the spec looks like for the device (ht Sam Pluta)
