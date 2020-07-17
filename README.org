@@ -5,7 +5,7 @@
 ** Basic Overview
 *** Introductory
 [[file:../../../org-roam/20200717111927-introduction.org][Introduction]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Week01/introduction.md][Introduction Online]]
+[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week01/introduction.md][Introduction Online]]
 
 *** Functional Programming
 [[file:../../../org-roam/20200717113449-intro_to_functions.org][Intro to Functions and Variables]]
