@@ -11,7 +11,7 @@
 [[file:first-steps/SynthDefs.org][SynthDefs]]
 ** Events: Control of SynthDefs
 *** Examples of Patterns
-[[file:Interaction/Pattern-examples.org][Pattern Example]]
+[[file:Interaction/Pattern-Examples.org][Pattern Example]]
 * Hardware Interaction
 ** Connect Devices
 [[file:Interaction/Input-Sources.org][Input Sources]]
