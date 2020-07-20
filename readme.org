@@ -18,9 +18,9 @@
 [[file:Pattern-examples.scd][Pattern Examples]]
 
 * Hardware Interaction
+*** Connect Devices
+[[file:Input-Sources.org][Input Sources]]
 ** Modality
 [[https://modalityteam.github.io][What is Modality Toolkit]]
 *** More Examples on Modality
 [[file:Modality-Examples.scd][Modality Examples]]
-*** Connect Devices
-[[file:Input-Sources.scd][Input Sources]]
