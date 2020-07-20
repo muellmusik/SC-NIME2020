@@ -1,5 +1,4 @@
-#+TITLE: NIME-WorkShop-SC-2020
-
+#+TITLE: SuperCollider Workshop @ NIME2020
 [[./img/sc-workshop-NIME2020.png]]
 
 * First Steps
