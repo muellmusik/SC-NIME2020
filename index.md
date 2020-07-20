@@ -19,6 +19,8 @@
 
 <a id="org4c49b1a"></a>
 
+Link to this page: https://muellmusik.github.io/SC-NIME2020/
+
 # First Steps
 
 
