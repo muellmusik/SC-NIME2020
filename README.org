@@ -6,21 +6,18 @@
 [[file:first-steps/Introduction.org][Introduction]]
 *** Some Basic Concepts in SC
 [[file:first-steps/Basics.org][Variables & Functions]]
-
 * Making Sound
 ** Create some Synthesizers using:
 [[file:first-steps/SynthDefs.org][SynthDefs]]
-
 ** Events: Control of SynthDefs
-*** Patterns and Streams
-[[file:first-steps/ControlInteraction.org][Controlling SynthDefs]]
 *** More Examples on Patterns
-[[file:Pattern-examples.scd][Pattern Examples]]
-
+[[file:Interaction/Pattern-examples.org][Pattern Example]]
 * Hardware Interaction
+** Connect Devices
+[[file:Interaction/Input-Sources.org][Input Sources]]
 ** Modality
 [[https://modalityteam.github.io][What is Modality Toolkit]]
 *** More Examples on Modality
-[[file:Modality-Examples.scd][Modality Examples]]
+[[file:Interaction/Modality-Examples.org][Modality Examples]]
 *** Connect Devices
-[[file:Input-Sources.scd][Input Sources]]
+[[file:Interaction/Other-Inputs.org][Other Inputs]]
