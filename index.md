@@ -26,14 +26,14 @@
 
 ## Overview of SC
 
-[Introduction](first-steps/Introduction.md)
+[Introduction](first-steps/Introduction.org)
 
 
 <a id="org3626a8d"></a>
 
 ### Some Basic Concepts in SC
 
-[Variables & Functions](first-steps/Basics.md)
+[Variables & Functions](first-steps/Basics.org)
 
 
 <a id="org51cea3e"></a>
@@ -45,7 +45,7 @@
 
 ## Create some Synthesizers using:
 
-[SynthDefs](first-steps/SynthDefs.md)
+[SynthDefs](first-steps/SynthDefs.org)
 
 
 <a id="orgdda7aba"></a>
@@ -57,7 +57,7 @@
 
 ### Patterns and Streams
 
-[Controlling SynthDefs](first-steps/ControlInteraction.md)
+[Controlling SynthDefs](first-steps/ControlInteraction.org)
 
 
 <a id="orga321963"></a>
