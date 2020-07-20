@@ -1,4 +1,4 @@
-#+TITLE: Controlling SynthDefs
+#+TITLE: Controlling SynthDefs with Patterns
 
 SC has great support for patterns and streams. A stream is a stream of
 something. You can ask streams for their next value with the next

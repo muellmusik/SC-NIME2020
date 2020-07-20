@@ -3,7 +3,7 @@
 
 Programming audio applications and interactive sound synthesis software,
 using the SuperCollider programming language.
-** Introduction to SuperCollider
+
 SuperCollider (SC) (https://supercollider.github.io/) is a programming
 language for audio synthesis; it provides a state of the art server to
 create sound and a programming language to interact and evaluate code,

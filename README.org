@@ -12,14 +12,14 @@
 [[file:first-steps/SynthDefs.org][SynthDefs]]
 
 ** Events: Control of SynthDefs
-[[file:First-Steps/ControlInteraction.org][Controlling SynthDefs]]
+[[file:first-steps/ControlInteraction.org][Controlling SynthDefs]]
 
-[[file:Pattern examples.scd][Pattern Examples]]
+[[file:Pattern-examples.scd][Pattern Examples]]
 
 ** Hardware Interaction
 
-[[google:https://modalityteam.github.io][What is Modality Toolkit]]
+[[https://modalityteam.github.io][What is Modality Toolkit]]
 
-[[file:Modality Examples.scd][Modality Examples]]
+[[file:Modality-Examples.scd][Modality Examples]]
 
-[[file:Input Sources.scd][Input Sources]]
+[[file:Input-Sources.scd][Input Sources]]
