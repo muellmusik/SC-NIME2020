@@ -1,5 +1,8 @@
 #+TITLE: Modality Examples
 
+Modality is a higher level toolkit which makes adding controllers simple through a uniform interface: https://modalityteam.github.io
+Installation info: https://github.com/ModalityTeam/Modality-toolkit#installation
+
 ** Connect some device
 Look for available controllers
 #+begin_src sclang
