@@ -26,14 +26,14 @@
 
 ## Overview of SC
 
-[Introduction](first-steps/Introduction.md)
+[Introduction](first-steps/Introduction.org)
 
 
 <a id="org80a5406"></a>
 
 ### Some Basic Concepts in SC
 
-[Variables & Functions](first-steps/Basics.md)
+[Variables & Functions](first-steps/Basics.org)
 
 
 <a id="org08ef88f"></a>
@@ -45,7 +45,7 @@
 
 ## Create some Synthesizers using:
 
-[SynthDefs](first-steps/SynthDefs.md)
+[SynthDefs](first-steps/SynthDefs.org)
 
 
 <a id="orgf028d66"></a>
@@ -57,7 +57,7 @@
 
 ### More Examples on Patterns
 
-[Pattern Example](Interaction/Pattern-examples.md)
+[Pattern Example](Interaction/Pattern-examples.org)
 
 
 <a id="org1d7fac7"></a>
@@ -69,7 +69,7 @@
 
 ## Connect Devices
 
-[Input Sources](Interaction/Input-Sources.md)
+[Input Sources](Interaction/Input-Sources.org)
 
 
 <a id="orgc2b9f7a"></a>
@@ -83,12 +83,12 @@
 
 ### More Examples on Modality
 
-[Modality Examples](Interaction/Modality-Examples.md)
+[Modality Examples](Interaction/Modality-Examples.org)
 
 
 <a id="org0f67368"></a>
 
 ### Connect Devices
 
-[Other Inputs](Interaction/Other-Inputs.md)
+[Other Inputs](Interaction/Other-Inputs.org)
 
