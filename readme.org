@@ -10,7 +10,7 @@
 ** Create some Synthesizers using:
 [[file:first-steps/SynthDefs.org][SynthDefs]]
 ** Events: Control of SynthDefs
-*** More Examples on Patterns
+*** Examples of Patterns
 [[file:Interaction/Pattern-examples.org][Pattern Example]]
 * Hardware Interaction
 ** Connect Devices
