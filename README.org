@@ -8,7 +8,7 @@
 *** Some Basic Concepts in SC
 [[file:first-steps/Basics.org][Variables & Functions]]
 
-** Making Sound
+* Making Sound
 *** Create some Synthesizers using:
 [[file:first-steps/SynthDefs.org][SynthDefs]]
 
@@ -18,10 +18,10 @@
 *** More Examples on Patterns
 [[file:Pattern-examples.scd][Pattern Examples]]
 
-** Hardware Interaction
-
+* Hardware Interaction
+** Modality
 [[https://modalityteam.github.io][What is Modality Toolkit]]
-
+*** More Examples on Modality
 [[file:Modality-Examples.scd][Modality Examples]]
-
+*** Connect Devices
 [[file:Input-Sources.scd][Input Sources]]
