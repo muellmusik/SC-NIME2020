@@ -69,7 +69,7 @@
 
 ## Connect Devices
 
-[Input Sources](Interaction/Input-Sources.org)
+[Input Sources](Interaction/Input-Sources.md)
 
 
 <a id="orgf4fb6df"></a>
