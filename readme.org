@@ -24,3 +24,5 @@
 [[https://modalityteam.github.io][What is Modality Toolkit]]
 *** More Examples on Modality
 [[file:Modality-Examples.org][Modality Examples]]
+*** Other Examples using HID and Serial Protocols
+[[file:Other-Inputs.org][Other Inputs]]
