@@ -3,9 +3,9 @@
 ** Examples using other Protocols
 Notional rather than working examples it's often more convenient to use higher level approaches (e.g. Modality) to these
 
-*** HID
-
-HID.postAvailable; ** check which devices are attached
+** HID
+#+begin_src sclang
+HID.postAvailable; // check which devices are attached
 ~myhid = HID.open( 1103, 53251 ); // open the Run 'N' Drive game controller, put your own values here.
 
 s.boot; // boot the server
@@ -15,10 +15,10 @@ Ndef(\sinewave ).play;
 
 HIDdef.usage( \freq, { |value| Ndef( \sinewave ).set(\freq, value.linexp( 0, 1, 500, 5000 ) ); }, \X );
 HIDdef.usage( \amp, { |value| Ndef( \sinewave ).set(\amp, value ); }, \Y );
-
-*** Serial
-
+#+end_src
+** Serial
 *** Arduino read example from the help file
+#+begin_src sclang
 (
 p = SerialPort(
     "/dev/tty.usbserial-A800crTT",    // edit to match your port. SerialPort.listDevices
@@ -27,6 +27,7 @@ p = SerialPort(
 )
 
 // read 10bit serial data sent from Arduino's Serial.println
+
 (
 r= Routine({
     var byte, str, res;
@@ -42,3 +43,4 @@ r= Routine({
     };
 }).play;
 )
+#+end_src
