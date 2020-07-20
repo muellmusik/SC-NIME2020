@@ -19,7 +19,11 @@ MIDIdef.cc(\fader3, {|val| Ndef(\choppy).set(\pulseRate, 8 * (val/127))}).learn;
 
 MIDIdef.cc(\button1, {|val| if(val > 0, {Ndef(\choppy).set(\t_trig, 1)})}).learn; // press a button
 
+// load the example soundfile
+p = Platform.resourceDir +/+ "sounds/a11wlk01.wav";
+b = Buffer.read(s, p);
 
+// an Ndef to play it
 (
 Ndef(\choppy, {|pos = 0, rate = 1, loop = 0, t_trig = 0, pulseRate = 1|
 	var pb;
