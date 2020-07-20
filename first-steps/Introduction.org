@@ -142,6 +142,5 @@ information we want to have inside our programs.
 _A history of programming and Music._ In chapter 4. The Cambridge
 Companion to Electronic Music, edited by Nick Collins and Julio
 d'Escrivan.
-*** Client vs. Server
-[[google:http://doc.sccode.org/Guides/ClientVsServer.html
-][Client vs. Server]]
+
+[[google:https://doc.sccode.org/Guides/ClientVsServer.html#:~:text=two%20distinct%20tasks%3A-,Client,OSC%20messages%20to%20the%20server.&text=it%20is%20the%20interpreter%20for,to%20control%20the%20audio%20server.][Client vs Server]]
