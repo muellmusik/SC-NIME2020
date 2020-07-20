@@ -1,29 +1,37 @@
-// MIDI
+#+TITLE: Input Sources
 
-MIDIIn.connectAll; // connect all available MIDI interfaces
-MIDIFunc.trace; // post all incoming MIDI messages
-MIDIFunc.trace(false); // turn it off later...
+** MIDI
+Connect all available MIDI interfaces, post all incoming MIDI messages, and turn it of later.
+#+begin_src sclang
+MIDIIn.connectAll;
+MIDIFunc.trace;
+MIDIFunc.trace(false);
+#+end_src
 
-MIDIdef.cc(\test1, {arg ...args; args.postln}, 1); // match cc 1
-MIDIdef.cc(\test2, {arg ...args; args.postln}, 1, 1); // match cc1, chan 1
-MIDIdef.cc(\test3, {arg ...args; args.postln}, (1..10)); // match cc 1-10
-MIDIdef.noteOn(\test4, {arg ...args; args.postln}); // match any noteOn
+Match cc 1, match cc1, chan 1, match cc 1-10, match any noteOn.
+#+begin_src sclang
+MIDIdef.cc(\test1, {arg ...args; args.postln}, 1);
+MIDIdef.cc(\test1, {arg ...args; args.postln}, 1);
+MIDIdef.cc(\test2, {arg ...args; args.postln}, 1, 1);
+MIDIdef.cc(\test3, {arg ...args; args.postln}, (1..10));
+MIDIdef.noteOn(\test4, {arg ...args; args.postln});
+#+end_src
 
-// Make a cc MIDIdef to do something, and then tell it to learn.
-MIDIdef.cc(\fader1, {|val| Ndef(\choppy).set(\rate, 4 * (val/127))}).learn; // execute then move the fader
-
-MIDIdef.cc(\fader2, {|val| Ndef(\choppy).set(\pos, val/127)}).learn; // execute then move the fader
-
+Make a cc MIDIdef to do something, and then tell it to learn.
+#+begin_src sclang
+MIDIdef.cc(\fader1, {|val| Ndef(\choppy).set(\rate, 4 * (val/127))}).learn;
+MIDIdef.cc(\fader2, {|val| Ndef(\choppy).set(\pos, val/127)}).learn; //Execute then move the fader.
 MIDIdef.cc(\fader3, {|val| Ndef(\choppy).set(\pulseRate, 8 * (val/127))}).learn;
-
-
 MIDIdef.cc(\button1, {|val| if(val > 0, {Ndef(\choppy).set(\t_trig, 1)})}).learn; // press a button
+#+end_src
 
-// load the example soundfile
+Load the example soundfile.
+#+begin_src sclang
 p = Platform.resourceDir +/+ "sounds/a11wlk01.wav";
 b = Buffer.read(s, p);
 
 // an Ndef to play it
+
 (
 Ndef(\choppy, {|pos = 0, rate = 1, loop = 0, t_trig = 0, pulseRate = 1|
 	var pb;
@@ -31,11 +39,13 @@ Ndef(\choppy, {|pos = 0, rate = 1, loop = 0, t_trig = 0, pulseRate = 1|
 	pb * LFPulse.kr(pulseRate).range(0, 1);
 }).play;
 )
+#+end_src
 
-// Open Sound Control (OSC)
+** Open Sound Control (OSC)
+For more detailed info: http://opensoundcontrol.org
 
-// we'll try an example with a custom OSC interface
-
+We'll try an example with a custom OSC interface
+#+begin_src sclang
 thisProcess.openUDPPort(9000); // listen on port address that you OSC controller sends messages *to*
 OSCFunc.trace(hideStatusMsg:true); // post incoming OSC to see what you're getting., ignoring Server status messages
 OSCFunc.trace(false); // turn posting off when you don't want the stream of messages
@@ -48,8 +58,10 @@ Ndef(\sin, {|freq = 440, amp = 0|
 	SinOsc.ar(freq, mul:amp)
 }).play;
 )
+#+end_src
 
-// now a couple of OSCdefs
+Now a couple of OSCdefs
+#+begin_src sclang
 (
 // this will respond to the top left red knob
 OSCdef(\freq, {|msg|
@@ -62,10 +74,13 @@ OSCdef(\amp, {|msg|
 	Ndef(\sin).set(\amp, msg[1]); // no need to scale as 0-1 is okay here
 }, "/slider2"); // the OSC path we'll respond to
 )
+#+end_src
 
-//cleanup
+Cleanup
+#+begin_src sclang
 (
 Ndef(\sin).free;
 OSCdef(\freq).free;
 OSCdef(\amp).free;
 )
+#+end_src

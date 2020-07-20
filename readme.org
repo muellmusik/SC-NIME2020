@@ -13,6 +13,7 @@
 *** More Examples on Patterns
 [[file:Interaction/Pattern-examples.org][Pattern Example]]
 * Hardware Interaction
+<<<<<<< HEAD:README.org
 ** Connect Devices
 [[file:Interaction/Input-Sources.org][Input Sources]]
 ** Modality
@@ -21,3 +22,13 @@
 [[file:Interaction/Modality-Examples.org][Modality Examples]]
 *** Connect More Devices
 [[file:Interaction/Other-Inputs.org][Other Inputs]]
+=======
+*** Connect Devices
+[[file:Input-Sources.org][Input Sources]]
+** Modality
+[[https://modalityteam.github.io][What is Modality Toolkit]]
+*** More Examples on Modality
+[[file:Modality-Examples.org][Modality Examples]]
+*** Other Examples using HID and Serial Protocols
+[[file:Other-Inputs.org][Other Inputs]]
+>>>>>>> 0f98648deb9597ace75b588a843346f4ef7f3d9e:readme.org
