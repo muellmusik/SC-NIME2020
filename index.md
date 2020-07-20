@@ -1,92 +1,92 @@
 
 # Table of Contents
 
-1.  [First Steps](#org6969ff3)
-    1.  [Overview of SC](#org93f3d9e)
-        1.  [Some Basic Concepts in SC](#org047d583)
-2.  [Making Sound](#org4cd6b44)
-    1.  [Create some Synthesizers using:](#org23bcf83)
-    2.  [Events: Control of SynthDefs](#org3535696)
-        1.  [Examples of Patterns](#org21a6509)
-3.  [Hardware Interaction](#org7f8b519)
-    1.  [Connect Devices](#orgfb3c51f)
-    2.  [Modality](#org1acb9b5)
-        1.  [More Examples on Modality](#org8a610b7)
-        2.  [Connect More Devices](#orge52b953)
+1.  [First Steps](#orgf8b6e79)
+    1.  [Overview of SC](#org6813e6f)
+        1.  [Some Basic Concepts in SC](#org38c18cd)
+2.  [Making Sound](#org8e2e274)
+    1.  [Create some Synthesizers using:](#org65b6e20)
+    2.  [Events: Control of SynthDefs](#org78f5b28)
+        1.  [Examples of Patterns](#org7716d76)
+3.  [Hardware Interaction](#org30285b9)
+    1.  [Connect Devices](#org6e9c050)
+    2.  [Modality](#org98765a9)
+        1.  [More Examples on Modality](#orgb9fc6c9)
+        2.  [Connect More Devices](#org606ac7e)
 
 ![img](./img/sc-workshop-NIME2020.png)
 
 
-<a id="org6969ff3"></a>
+<a id="orgf8b6e79"></a>
 
 # First Steps
 
 
-<a id="org93f3d9e"></a>
+<a id="org6813e6f"></a>
 
 ## Overview of SC
 
 [Introduction](first-steps/Introduction.md)
 
 
-<a id="org047d583"></a>
+<a id="org38c18cd"></a>
 
 ### Some Basic Concepts in SC
 
 [Variables & Functions](first-steps/Basics.md)
 
 
-<a id="org4cd6b44"></a>
+<a id="org8e2e274"></a>
 
 # Making Sound
 
 
-<a id="org23bcf83"></a>
+<a id="org65b6e20"></a>
 
 ## Create some Synthesizers using:
 
 [SynthDefs](first-steps/SynthDefs.md)
 
 
-<a id="org3535696"></a>
+<a id="org78f5b28"></a>
 
 ## Events: Control of SynthDefs
 
 
-<a id="org21a6509"></a>
+<a id="org7716d76"></a>
 
 ### Examples of Patterns
 
 [Pattern Example](Interaction/Pattern-examples.md)
 
 
-<a id="org7f8b519"></a>
+<a id="org30285b9"></a>
 
 # Hardware Interaction
 
 
-<a id="orgfb3c51f"></a>
+<a id="org6e9c050"></a>
 
 ## Connect Devices
 
 [Input Sources](Interaction/Input-Sources.md)
 
 
-<a id="org1acb9b5"></a>
+<a id="org98765a9"></a>
 
 ## Modality
 
 [What is Modality Toolkit](https://modalityteam.github.io)
 
 
-<a id="org8a610b7"></a>
+<a id="orgb9fc6c9"></a>
 
 ### More Examples on Modality
 
 [Modality Examples](Interaction/Modality-Examples.md)
 
 
-<a id="orge52b953"></a>
+<a id="org606ac7e"></a>
 
 ### Connect More Devices
 
