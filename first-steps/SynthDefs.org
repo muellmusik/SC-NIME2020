@@ -1,7 +1,4 @@
-#+TITLE: Synth Defs
-#+title: synthdefs
-
-* SynthDefs
+#+TITLE: Making Sound: SynthDefs
 A SynthDef provides the interface to create sound synthesis modules in
 SuperCollider. It also offers a set of interaction capabilities to alter the
 musical parameters of the sound synthesis on a higher level. To create it we
@@ -10,7 +7,7 @@ on the Server using the message '.add'. Now is a good time to boot the Server.
 
 
 
-#+BEGIN_SRC ruby
+#+BEGIN_SRC sclang
 SynthDef(\mySynth, {|out = 0, amp = 0.6|
 	var sig; sig = SinOsc.ar([120.0, 121.0]); // a two output sine oscillator synth.
 	sig = sig / 2;
@@ -35,11 +32,11 @@ to keep SynthDefs simple  and create other ones for extra manipulation.
 To apply ADSR properties to a SynthDef we use an Env specification. To be able
 to retrigger the envelope we use an EnvGen. Run this line below and
 see how the envelope of the synthesizer will look like.
-#+BEGIN_SRC ruby
+#+BEGIN_SRC sclang
 Env.new([0, 1, 0.9, 0], [0.1, 0.5, 1],[-5, 0, -5]).plot;
 #+END_SRC
 Apply an Envelope on our previous SynthDef.
-#+BEGIN_SRC ruby
+#+BEGIN_SRC sclang
 (
 SynthDef(\myEnvSynth, {|out = 0, amp = 0.3|
 	var sig, env;
@@ -55,7 +52,7 @@ Synth(\myEnvSynth);
 
 Assuming the previous SynthDef is loaded we can assign the Synth class to a variable like this below:
 
-#+BEGIN_SRC ruby
+#+BEGIN_SRC sclang
 x = Synth(\myEnvSynth); // x now is our Synth and can be used anywhere in our program as it is a global variable.
 x.set(\amp, 0.1); // the set message requires the name of the parameter and a value.
 #+END_SRC

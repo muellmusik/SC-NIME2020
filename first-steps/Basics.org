@@ -1,6 +1,4 @@
-#+TITLE: Basics
-
-* Basic Concepts of SC
+#+TITLE: Basic Concepts of SC
 
 ** Overview of SC elements
 Below you can see some of the main elements that we will encounter while working in SC.
