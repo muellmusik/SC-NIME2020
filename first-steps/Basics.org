@@ -4,7 +4,7 @@
 
 ** Overview of SC elements
 Below you can see some of the main elements that we will encounter while working in SC.
-````js
+#+begin_src sclang
 // This is a comment,
 // anything that follows the two slashes,
 // in the beginning will be not taken,
@@ -20,7 +20,7 @@ SinOsc, Pan2 //This is a class, denoted always first letter with capital letter.
 a = {...}; //a function, wrapped inside a region. Here we add anything that will be executed as a function.
 a.postln;
 )
-````
+#+end_src
 
 ** Comments
 A comment is literary anything you want to add as a comment besides the real code inside your program, this may be some note to your self or to others that might need through your code or an explanation next to a line of code, see the previous examples above, anything that is following the two // format will be ignored when executing code.
@@ -40,10 +40,9 @@ Unlike other computer languages SC is real time meaning that you don't
 have to 'compile' anything and wait for potential errors while this
 procedure. This makes sense for live situations especially when
 improvising algorithms on the fly as the strategy for the musical
-performance. More on this later in the semester. For now we will focus
+performance. For now we will focus
 on the basics of creating small programs that contain basic abstraction
-of "things" named ````Variables````, by declaring names we want to
-objects.
+of "things" named Variables.
 
 Variables are one of the most powerful way to describe something inside
 a program, enabling the interaction of reusable bits of
@@ -54,12 +53,12 @@ their manipulation and see the differences.
 
 So a variable basically is a name we give to things inside regions of
 code:
-````js
+#+begin_src sclang
 (
   var apple = "I am a red apple";
   apple.postln;
   )
-````
+#+end_src
 
 In this code above the apple is the name of the variable in which we may store
 anything, can you guess why this is important... In
@@ -74,21 +73,23 @@ nothing until you assign something to it, otherwise it's ````nil````, a
 word you will get used to it eventually when programming.
 
 Try the following code below:
-````js
+#+begin_src sclang
 (
   var apple;
   apple.postln
   )
-  ````
+  #+end_src
+
   And a little more experimentation with variables to understand their cuteness.
 
-````js
+#+begin_src sclang
 (
 var apple = "big apple";
 var appleColor = "red, and juicy";
 ("I am a " ++ apple ++ " " ++ appleColor)
 )
-````
+#+end_src
+
 You probably noticed some minor additional bits in the last sentence, this is because in programming things are not always exactly how they suppose to be so many times you will have to make some workarounds, especially when is about formatting like strings for example. Now go on and make your additions to the current code and try to make it more complex and fun by adding more variables.
 
 ** Some theory on Variables
@@ -103,21 +104,23 @@ some mathematical operations on two numbers and summing or multiplying
 them. A number is an object we can perform multiple operations on it,
 but not all, why? Because different objects have diverse functionality.
 For exaple, we can do this on a string:
-````js
+#+begin_src sclang
 "hello" ++ "world"
-````
+#+end_src
+
 That is, concatenate two strings using two sum signs to merge them. See
 the next example, and maybe try to fix it, can you imagine what's wrong
 with it?
 
-````js
+#+begin_src sclang
 (
 var a = 1;
 var b = 2;
 var sum = a ++ b;
 sum
 )
-````
+#+end_src
+
 Look into the post window and spot the cause of the error.
 The issue here lies to the fact that all object have different
 attributes and thus different outcome and behavior when manipulating
@@ -131,31 +134,32 @@ You may also declare a variable that uses another variable declared
 *** Global vs. local Variables
 A problem that arises often with variables is that, variables can exist in a region that you execute inside the matching parenthesis. This sometimes is not convenient, for example you have something like below:
 
-````js
+#+begin_src sclang
 (
 var lorem = "lorem ipsum dolor sit amet",
 ipsum = "consectetur adipisicing elit";
 lorem ++ " " ++ ipsum
  )
- ````
+ #+end_src
 
 
-What if ````ipsum```` variable can't co exist with the rest of the
+What if "ipsum" variable can't co exist with the rest of the
 declared variables inside the same region.
 
 ** Functions
 Functions are the building blocks of our programs, so if a program is a
 house then functions are the bricks. Functions in SC are denoted by
 curly brackets:
-````js
+#+begin_src sclang
 { } //this is a function
-````
+#+end_src
+
 If you copy and evaluate it in SC it will return _-> a Function_.
 Functions have unique names and by calling them anywhere inside our
 program we can reuse them and pass their output as input to another
 function. See this example:
-````js
 
+#+begin_src sclang
 (
 y = {
 	a = 10;//integer
@@ -173,11 +177,11 @@ x = {
 );
 
 x.value(0.5);
-````
+#+end_src
 
 Template for functions that we will be using as follows:
 
-````js
+#+begin_src sclang
 (
 a = {
 	arg freq = 0.5,
@@ -186,18 +190,20 @@ a = {
 	freq / amp;
 }
 )
-````
+#+end_src
 
-We need to add `.value` at the end of the function, or add a callback like this example below in order to give us the result.
+We need to add ".value" at the end of the function, or add a callback like this example below in order to give us the result.
 
-Run this to learn the result of the ~a~ function:
-````js
+Run this to learn the result of the _a_ function:
+
+#+begin_src sclang
 a.value
-````
+#+end_src
 It will return this:
-````js
+#+begin_src sclang
 -> 1.4285714285714
-````
+#+end_src
+
 * Reading list
 SuperCollider Handbook pp.6-18 _Messages and Arguments_.
 
