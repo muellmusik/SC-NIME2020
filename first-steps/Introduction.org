@@ -1,6 +1,6 @@
 #+title: Introduction
 
-
+** Introductory Remarks on SuperCollider
 Programming audio applications and interactive sound synthesis software,
 using the SuperCollider programming language.
 
@@ -49,7 +49,7 @@ system of SC. Reached from the IDE you may search and learn specific and
 general topics covered inside the provided files.
 
 ** Server and language
-SC is two applications, specifically is three, but what is important now
+SC is two applications, (more specifically is three), but what is important now
 is to understand that when working in SC we actually interact with the
 synthesis engine, named Server, it is responsible to create the sound
 for us by taking orders by the language, hence the Server. The orders we

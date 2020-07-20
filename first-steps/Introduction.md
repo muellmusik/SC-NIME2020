@@ -1,16 +1,23 @@
 
 # Table of Contents
 
-    1.  [Resources](#org05e3ab0)
-1.  [The IDE](#org52a1dea)
-    1.  [Post Window](#org1088311)
-    2.  [Help](#org04452a7)
-2.  [Server and language](#org42fa58b)
-    1.  [Code execution](#org3fad718)
-    2.  [Running a line](#org9aed6f5)
-    3.  [Running two lines](#org1874419)
-3.  [Discussion](#org0120f66)
-    1.  [Commenting](#orgfd78ad5)
+1.  [Introductory Remarks on SuperCollider](#org118a56f)
+    1.  [Resources](#orgaeb3ed5)
+2.  [The IDE](#orgba5e8d1)
+    1.  [Post Window](#org894a5f5)
+    2.  [Help](#org855d9ab)
+3.  [Server and language](#org076d154)
+    1.  [Code execution](#org2ddcd4c)
+    2.  [Running a line](#org8f94723)
+    3.  [Running two lines](#org67caecc)
+4.  [Discussion](#orgd44ebcf)
+    1.  [Commenting](#org5c839e6)
+
+
+
+<a id="org118a56f"></a>
+
+# Introductory Remarks on SuperCollider
 
 Programming audio applications and interactive sound synthesis software,
 using the SuperCollider programming language.
@@ -27,7 +34,7 @@ generators to build novel instruments and sound generators. Firstly,
 let&rsquo;s take a look on the IDE of the SuperCollider.
 
 
-<a id="org05e3ab0"></a>
+<a id="orgaeb3ed5"></a>
 
 ## Resources
 
@@ -35,7 +42,7 @@ If you haven&rsquo;t already downloaded the language so far, do so now from
 this link: <https://supercollider.github.io/>
 
 
-<a id="org52a1dea"></a>
+<a id="orgba5e8d1"></a>
 
 # The IDE
 
@@ -46,7 +53,7 @@ save anything in your operation system. Try to memorize the keyboard
 shortcuts working in SC.
 
 
-<a id="org1088311"></a>
+<a id="org894a5f5"></a>
 
 ## Post Window
 
@@ -66,7 +73,7 @@ Assuming there is no problem with your installation shown in the post
 window, you are ready to start coding.
 
 
-<a id="org04452a7"></a>
+<a id="org855d9ab"></a>
 
 ## Help
 
@@ -75,11 +82,11 @@ system of SC. Reached from the IDE you may search and learn specific and
 general topics covered inside the provided files.
 
 
-<a id="org42fa58b"></a>
+<a id="org076d154"></a>
 
 # Server and language
 
-SC is two applications, specifically is three, but what is important now
+SC is two applications, (more specifically is three), but what is important now
 is to understand that when working in SC we actually interact with the
 synthesis engine, named Server, it is responsible to create the sound
 for us by taking orders by the language, hence the Server. The orders we
@@ -88,7 +95,7 @@ we not. The language we write is translated by the interpreter once we
 evaluate or execute a line of code.
 
 
-<a id="org3fad718"></a>
+<a id="org2ddcd4c"></a>
 
 ## Code execution
 
@@ -98,7 +105,7 @@ testing run this on top of your blank page in the IDE.
     1+1
 
 
-<a id="org9aed6f5"></a>
+<a id="org8f94723"></a>
 
 ## Running a line
 
@@ -107,7 +114,7 @@ that your code was evaluated properly and no complains in post window
 appeared.
 
 
-<a id="org1874419"></a>
+<a id="org67caecc"></a>
 
 ## Running two lines
 
@@ -156,7 +163,7 @@ hanging. In this case it says, that there is something missing in line
 4, can you guess what&rsquo;s that?
 
 
-<a id="org0120f66"></a>
+<a id="orgd44ebcf"></a>
 
 # Discussion
 
@@ -167,7 +174,7 @@ mathematical operations. At the end you must print this
     is 3 hundred
 
 
-<a id="orgfd78ad5"></a>
+<a id="org5c839e6"></a>
 
 ## Commenting
 
