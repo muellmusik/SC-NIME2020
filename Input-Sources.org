@@ -41,7 +41,7 @@ Ndef(\choppy, {|pos = 0, rate = 1, loop = 0, t_trig = 0, pulseRate = 1|
 )
 #+end_src
 
-Open Sound Control (OSC)
+** Open Sound Control (OSC)
 
 We'll try an example with a custom OSC interface
 #+begin_src sclang
