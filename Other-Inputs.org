@@ -4,6 +4,8 @@
 Notional rather than working examples it's often more convenient to use higher level approaches (e.g. Modality) to these
 
 ** HID
+https://en.wikipedia.org/wiki/Human_interface_device
+
 #+begin_src sclang
 HID.postAvailable; // check which devices are attached
 ~myhid = HID.open( 1103, 53251 ); // open the Run 'N' Drive game controller, put your own values here.
