@@ -1,10 +1,10 @@
 #+TITLE: NIME-WorkShop-SC-2020
 
 * SuperCollider Workshop NIME 2020
-[[image:./img/sc-workshop-NIME2020.png][sc-workshop-image]]
+[[image:../img/sc-workshop-NIME2020.png][sc-workshop-image]]
 ** First Steps
 *** Overview of SuperCollider
-[[file:Basics.org][Overview]]
+[[file:First-Steps/Basics.org][Basics Overview]]
 *** Introduction
 [[file:first-steps/Introduction.org][Introduction]]
 ** Making Sound
@@ -12,7 +12,8 @@
 ** Control and Interaction
 [[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Pattern%20examples.scd][Pattern Examples]]
 ** Hardware Interaction
-*** Modality [[google:http://modalityteam.github.io][Toolkit]]
-[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Modality%20Examples.scd][Modality]]
+*** [[google:https://modalityteam.github.io][What is Modality Toolkit]]
+*** Modality
+[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Modality%20Examples.scd][Modality Examples]]
 *** Connect Devices
 [[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Input%20Sources.scd][Input Sources]]
