@@ -3,19 +3,23 @@
 [[./img/sc-workshop-NIME2020.png]]
 
 ** First Steps
-*** Overview of SuperCollider
+
 [[file:first-steps/Introduction.org][Introduction]]
 
 [[file:first-steps/Basics.org][Basics: Variables & Functions]]
+
 ** Making Sound
 [[file:first-steps/SynthDefs.org][SynthDefs]]
 
+** Events: Control of SynthDefs
 [[file:First-Steps/ControlInteraction.org][Controlling SynthDefs]]
-** Control and Interaction
+
 [[file:Pattern examples.scd][Pattern Examples]]
+
 ** Hardware Interaction
-*** [[google:https://modalityteam.github.io][What is Modality Toolkit]]
-*** Modality
+
+[[google:https://modalityteam.github.io][What is Modality Toolkit]]
+
 [[file:Modality Examples.scd][Modality Examples]]
-*** Connect Devices
+
 [[file:Input Sources.scd][Input Sources]]
