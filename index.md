@@ -57,7 +57,7 @@
 
 ### Examples of Patterns
 
-[Pattern Example](Interaction/Pattern-examples.md)
+[Pattern Example](Interaction/Pattern-Examples.md)
 
 
 <a id="org641270b"></a>
