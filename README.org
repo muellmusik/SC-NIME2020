@@ -14,6 +14,6 @@
 ** Hardware Interaction
 *** [[google:https://modalityteam.github.io][What is Modality Toolkit]]
 *** Modality
-[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Modality%20Examples.scd][Modality Examples]]
+[[github:muellmusik/SC-NIME2020/blob/master/Modality%20Examples.scd][Modality Examples]]
 *** Connect Devices
-[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Input%20Sources.scd][Input Sources]]
+[[github:muellmusik/SC-NIME2020/blob/master/Input Sources.scd][Input Sources]]
