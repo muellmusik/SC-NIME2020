@@ -5,9 +5,12 @@
 ** First Steps
 *** Overview of SuperCollider
 [[file:first-steps/Introduction.org][Introduction]]
+
 [[file:first-steps/Basics.org][Basics: Variables & Functions]]
 ** Making Sound
 [[file:first-steps/SynthDefs.org][SynthDefs]]
+
+[[file:First-Steps/ControlInteraction.org][Controlling SynthDefs]]
 ** Control and Interaction
 [[file:Pattern examples.scd][Pattern Examples]]
 ** Hardware Interaction

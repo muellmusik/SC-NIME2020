@@ -1,7 +1,5 @@
-#+TITLE: Control Interaction
-#+title: Controlling [[file:20200717112340-synthdefs.org][synthdefs]]
+#+TITLE: Controlling SynthDefs
 
-* Patterns in SC
 SC has great support for patterns and streams. A stream is a stream of
 something. You can ask streams for their next value with the next
 method. All objects are trivially a stream of themselves

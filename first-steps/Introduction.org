@@ -1,6 +1,6 @@
 #+title: Introduction
 
-* An Introduction to SuperCollider
+
 Programming audio applications and interactive sound synthesis software,
 using the SuperCollider programming language.
 ** Introduction to SuperCollider
