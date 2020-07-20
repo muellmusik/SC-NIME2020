@@ -23,4 +23,4 @@
 ** Modality
 [[https://modalityteam.github.io][What is Modality Toolkit]]
 *** More Examples on Modality
-[[file:Modality-Examples.scd][Modality Examples]]
+[[file:Modality-Examples.org][Modality Examples]]
