@@ -3,17 +3,19 @@
 [[./img/sc-workshop-NIME2020.png]]
 
 ** First Steps
-
+*** Overview of SC
 [[file:first-steps/Introduction.org][Introduction]]
-
-[[file:first-steps/Basics.org][Basics: Variables & Functions]]
+*** Some Basic Concepts in SC
+[[file:first-steps/Basics.org][Variables & Functions]]
 
 ** Making Sound
+*** Create some Synthesizers using:
 [[file:first-steps/SynthDefs.org][SynthDefs]]
 
 ** Events: Control of SynthDefs
+*** Patterns and Streams
 [[file:first-steps/ControlInteraction.org][Controlling SynthDefs]]
-
+*** More Examples on Patterns
 [[file:Pattern-examples.scd][Pattern Examples]]
 
 ** Hardware Interaction
