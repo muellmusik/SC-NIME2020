@@ -1,34 +1,18 @@
 #+TITLE: NIME-WorkShop-SC-2020
 
 * SuperCollider Workshop NIME 2020
-[[image:KonVas/SuperMiam/blob/master/AP-Classes/images/SCScreenshot.jpg][SC Image]]
-** Basic Overview
-*** Introductory
-[[file:../../../org-roam/20200717111927-introduction.org][Introduction]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week01/introduction.md][Introduction Online]]
-
-*** Functional Programming
-[[file:../../../org-roam/20200717113449-intro_to_functions.org][Intro to Functions and Variables]]
-[[github:KonVas/SuperMiam/blob/master/AP-Classes/Week02/Basics.md][Intro to Variables]]
-*** More Examples on Variables
-[[~/Classes/Audio-Programming/Week02/Variables-Week02.scd]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week02/Variables-Week02.scd][Intro to Variables Online]]
-*** More Examples on Functions
-[[~/Classes/Audio-Programming/Week02/Functions-Week02.scd]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week02/Functions-Week02.scd][Intro to Functions Online]]
-
-** Sound Synthesis
-[[file:../../../org-roam/20200717112657-making_sound.org][Making Sound]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week03/MakingSound-Week03.md][Making Sound Online]]
-[[file:../../../org-roam/20200717112340-synthdefs.org][Synthdefs]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Demos/01.SynthDefs.org][SynthDefs Online]]
-
+[[image:./img/sc-workshop-NIME2020.png][sc-workshop-image]]
+** First Steps
+*** Overview of SuperCollider
+[[file:Basics.org][Overview]]
+*** Introduction
+[[file:first-steps/Introduction.org][Introduction]]
+** Making Sound
+[[file:first-steps/SynthDefs.org][SynthDefs]]
 ** Control and Interaction
-[[file:../../../org-roam/20200717112831-controlling.org][Controlling]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Demos/SynthDefControlPatterns.scd][Patterns]]
-[[https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Demos/Control-using-Events.org][More Patterns and Synths]]
-
-** Harware Communication - Performing with controllers
-*** [[file:../../../org-roam/20200707120849-modality.org][Modality]] O
-*** [[file:../../../org-roam/20200618153859-mapping_strategies.org][mapping strategies]]
-*** [[file:../../../org-roam/20200618145312-live_coding_with_controllers.org][Live Coding with controllers]]
+[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Pattern%20examples.scd][Pattern Examples]]
+** Hardware Interaction
+*** Modality [[google:http://modalityteam.github.io][Toolkit]]
+[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Modality%20Examples.scd][Modality]]
+*** Connect Devices
+[[google:https://github.com/muellmusik/SC-NIME2020/blob/master/Input%20Sources.scd][Input Sources]]
