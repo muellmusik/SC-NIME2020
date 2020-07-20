@@ -21,6 +21,8 @@ this link: https://supercollider.github.io/
 
 ** The IDE
 [[../img/sc_ide_overview_scaled.png]]
+#+CAPTION: The SC IDE
+
 Take a tour on the Menu of SC and try to save some files as you would
 save anything in your operation system. Try to memorize the keyboard
 shortcuts working in SC.
