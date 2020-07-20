@@ -1,11 +1,11 @@
 
 # Table of Contents
 
-1.  [Controlling SynthDefs with Patterns](#orgec9bae0)
-    1.  [Live coding techniques](#org0957372)
+1.  [Controlling SynthDefs with Patterns](#org30d9607)
+    1.  [Live coding techniques](#org91079d0)
 
 
-<a id="orgec9bae0"></a>
+<a id="org30d9607"></a>
 
 # Controlling SynthDefs with Patterns
 
@@ -53,7 +53,7 @@ Notice that the above makes a bunch of assumptions. There&rsquo;s a default soun
     )
 
 
-<a id="org0957372"></a>
+<a id="org91079d0"></a>
 
 ## Live coding techniques
 
