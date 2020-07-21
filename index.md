@@ -16,7 +16,7 @@
 
 ![img](./img/sc-workshop-NIME2020.png)
 
-
+[Code Examples](Code-examples.scd)
 <a id="org18b1ff8"></a>
 
 # First Steps
