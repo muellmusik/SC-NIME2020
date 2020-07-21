@@ -34,7 +34,7 @@ See a hierarchical tree of all elements
     k.postElements;
     
     // Post the output of the first knob
-    k.elAt(\kn, 0).action_({ |el| [el.name, el.value.postcs });
+    k.elAt(\kn, 0).action_({ |el| [el.name, el.value.postcs] });
 
 Clear the action
 
