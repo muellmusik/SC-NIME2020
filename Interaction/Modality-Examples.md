@@ -32,10 +32,8 @@ See all output from the device
 See a hierarchical tree of all elements
 
     k.postElements;
-    #+end+src
     
-    Post the output of the first knob
-    #+begin_src sclang
+    // Post the output of the first knob
     k.elAt(\kn, 0).action_({ |el| [el.name, el.value.postcs });
 
 Clear the action
