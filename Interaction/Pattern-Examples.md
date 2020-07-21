@@ -25,6 +25,11 @@ SC has great support for patterns and streams. A stream is a stream of something
     Pbind().play; // an endless string of middle Cs. Note that this assumes a lot of defaults. 1 second, default synthdef, middle C.
     
     // More interestingly, we can use our own synthdefs, and/or specify interesting parameter streams
+    
+    // Simple example
+    Pbind(\midinote, Pseq([60, 61, 62], 1), \dur, 0.2).play
+    
+    // nested
     (
     Pbind(
     	\degree, Pseq([Pseq([2, 1, 0], 2), Pseq([4, 3, 3, 2], 2)], 1), // |: Mi Re Do :||: So Fafa Mi :|
