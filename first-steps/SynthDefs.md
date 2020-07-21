@@ -10,6 +10,8 @@ musical parameters of the sound synthesis on a higher level. To create it we
 type SynthDef, it has to have a unique name, once is created we need to load it
 on the Server using the message &rsquo;.add&rsquo;. Now is a good time to boot the Server.
 
+    s.boot; // boot the server. you can also do this from the Server menu in the IDE
+    
     SynthDef(\mySynth, {|out = 0, amp = 0.6|
     	var sig; sig = SinOsc.ar([120.0, 121.0]); // a two output sine oscillator synth.
     	sig = sig / 2;
