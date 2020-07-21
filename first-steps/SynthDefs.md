@@ -30,6 +30,8 @@ pass default values to a SynthDef like &rsquo;amp&rsquo;. Sometimes we need to d
 manipulation on the signal i.e., add a filter in the signal chain but is better
 to keep SynthDefs simple  and create other ones for extra manipulation.
 
+To stop the synth use hold down Cmd(on Mac)/Ctrl(on Windows and Linux) and press . We call this pressing Cmd-period.
+
 
 <a id="orgfe96301"></a>
 
